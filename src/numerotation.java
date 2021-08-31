@@ -10,13 +10,6 @@ public class numerotation {
 
         List<String> phone = List.of("22571540916", "+22549105043", "022545672390", "0022503342917", "67291634");
 
-        /*
-        System.out.println("Entrer le numero de telephone à faire migré :");
-
-        Scanner scan = new Scanner(System.in);
-        String numero = scan.next();
-        System.out.println("le numero est " + numero);
-        */
         for (String numero : phone) {
             if (numero.length() >= 8) {
                 String prefixe = numero.substring(numero.length() - 8, numero.length() - 6);
